@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="" enctype="multipart/form-data">
+        <label for="username:">Name</label>
+        <input type="text"><br>
+        <label for="Password:">Password</label>
+        <input type="password" id="password"><br>
+
+
+        <label for="Email">E-Mail:</label>
+        <input type="email" id="Email" placeholder="abcdxy@gmail.com"><br>
+        <label for="phone">Phone: +</label>
+        <input type="tel" id="Phone" placeholder="123-456-7890" partten="[0-9]"><br>
+
+
+        <label for="Date of birth">
+        <input type="date" id="date"><br>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" min="0" max="99" value="1"><br>
+        <label for="Male">Male</label>
+        <input type="radio" id="Male">
+        <label for="tittle">Female</label>
+        <input type="radio" id="Female">
+        <label for="tittle">Phd.</label>
+        <input type="radio" id="Phd">
+
+
+
+        <label for="payment">Payment</label>
+        <select name="Payment" id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Googlegiftcard">Googlegift card</option>
+            <option value="upi">UPI</option>
+            <option value="Mastercard">Mastercard</option>
+        </select><br>
+
+        <label id="comment">Comment</label>
+        <textarea rows="3" cols="25" id="comment"></textarea>
+
+        <label for="file">File</label>
+        <input type="file" id="file" accept="image/png, image/jpeg"><br>
+
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
